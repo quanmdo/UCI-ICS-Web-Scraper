@@ -1,0 +1,40 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+
+
+User-agent: *
+Disallow: /*/calendar/*?*types*
+Disallow: /*/browse*?*types*
+Disallow: /*/calendar/200*
+# Disallow: /*/calendar/2013*
+# Disallow: /*/calendar/2014*
+Disallow: /*/calendar/2015*
+Disallow: /*/calendar/2016*
+Disallow: /*/calendar/2017*
+Disallow: /*/calendar/2018*
+Disallow: /*/calendar/2019*
+Disallow: /*/calendar/202*
+Disallow: /*/calendar/week
+Disallow: /calendar/month
+Disallow: /calendar/week
+Disallow: /event/confirm
+Disallow: /event/unconfirm
+Disallow: /event/get_attendees
+Disallow: /event/watch_event
+Disallow: /event/create
+Disallow: /search
+Disallow: /photo/
+Disallow: /*/search
+Disallow: /*?utm
+Disallow: /signup?*
+Disallow: /auth/
+Allow: /
+Allow: /search/events.ics
+Allow: /search/events.xml
+Allow: /*/search/events.ics
+Allow: /*/search/events.xml
+Allow: /calendar/ics
+Allow: /calendar/xml
+Allow: /*/calendar/ics
+Allow: /*/calendar/xml
+Allow: /auth/login
+Allow: /auth/forgot
